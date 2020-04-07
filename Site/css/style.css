@@ -1,0 +1,49 @@
+.body {
+  font-family: Verdana, sans-serif;
+  background: linear-gradient(0deg, #ff0000 20%, #000000 90%);
+  background-attachment: fixed;
+  color: #ffffff
+}
+a{
+  decoration: none;
+  color: #1B96BD;
+  font-weight: 500;
+}
+.conteiner {
+  margin: 0 10% 0 10%;
+}
+.cabecalho {
+  background-color: rgba(0,0,0, 0.5);
+  padding: 40px;
+  font-size: 40px;
+  position: relative;
+}
+.cabecalho li {
+  decoration: none;
+  color: #1B96BD;
+  font-weight: 500
+  list-style: none;
+  display: inline;
+  padding: 0 5px 0 5px;
+}
+.corpo figure {
+  display: inline-block;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 2px 5px 2px 5px rgba(0,0,0, 0.0);
+  padding:  5px 5px 150px 5px;
+  position: relative;
+}
+.corpo figcaption {
+  position: absolute;
+}
+.rodape {
+  padding: 50px;
+  background-color: rgba(0,0,0, 0.5);
+  font-size: 30px;
+  text-decoration: none;
+}
+.cabecalho li:hover{
+  color: gray;
+}
