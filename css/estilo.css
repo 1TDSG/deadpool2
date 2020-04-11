@@ -1,0 +1,56 @@
+body{
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(0deg,red 20% ,black 90%);
+    color: aliceblue;
+    background-attachment: fixed;
+}
+a{
+    color: #1B96BD;
+    text-decoration: none;
+    font-weight: 500;
+}
+div.container{
+    margin: 0px 10px 0px 10px;
+}
+div.cabecalho{
+    background-color:  rgba(0,0,0, 0.5) ;
+    padding: 40px;
+    font-size: 40px;
+    position: relative;
+    color: aqua;
+    transition: 2s;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 5px 0px 5px;
+    transition: 2s;
+}
+.corpo figure{
+    display: inline-block;
+    border: solid black;
+    box-shadow: rgba(0,0,0, 0.5) 2px 2px 2px 2px ;
+    padding: 5px 5px 150px 5px;
+    position: relative;
+
+}
+figcaption{
+    position: absolute;
+}
+.rodapé {
+    background-color:  rgba(0,0,0, 0.5) ;
+    padding: 50px;
+    font-size: 30px;
+}
+
+ul li:hover{
+    color: white;
+    
+}
+div.cabecalho:hover{
+    background-color: rgb(47, 2, 2);
+    
+}
+h3:hover{
+    font-style: italic;
+}
