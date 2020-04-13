@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-image: linear-gradient(0deg, #ff0000 20%, #000000 90%);
+    color: white;
+}
+
+a {
+    color: #1B96BD;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+div {
+    margin: 0 10% 0 10%;
+}
+
+#cabecalho {
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    padding: 0 5px 0 5px;
+    display: inline;
+}
+
+.corpo > figure {
+    display: inline-block;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px 5px 150px 5px;
+    position: relative;
+}
+
+.corpo > figure > figcaption {
+    position: absolute;
+    text-align: justify;
+}
+
+/* .corpo > figure > img {
+    Aplicar Controle de Borda para que a imagem não vaze do quadro
+} */
+
+.corpo > figure > figcaption > i {
+    font-weight: 600;
+}
+
+.rodape {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+ul > li:hover {
+    transition: 0.3s;
+    background-color: grey;
+    opacity: 0.8;
+}
+
+ul > li > a:hover {
+    transition: 0.3s;
+    color: #8fd9ef;
+}
