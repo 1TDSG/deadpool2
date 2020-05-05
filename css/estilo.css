@@ -10,17 +10,24 @@ body{
   background-color: #ff0000;
   background-image: linear-gradient(0deg,#ff0000 20%, #000000);
   background-attachment: fixed;
+  color: #ffffff;
 }
 /*Para os elementos de hyperlinks <a>:
 | Retire o estilo de decoração de todos os elementos.
 | Deixe o texto na cor azul #1B96BD.
 | Deixe o texto com opeso 500.
 */
-
+a{
+  text-decoration: none;
+  color: #1B96BD;
+  font-weight: 500;
+}
 /*Para a <div>que envolve todos os elementos determine os seguintes estilos:
-| Margens superior 0, direita 10%, inferior 0 eesquerda10%.
+| Margens superior 0, direita 10%, inferior 0 e esquerda 10%.
 */
-
+.container{
+  margin: 0 10%;
+}
 /*Para a classe cabeçalho determine os seguintes estilos:
 |Determine a cor de fundo como preto em transparência de 0.5.-utilize rgba(0,0,0, 0.0);
 |Preenchimentode 40px.
