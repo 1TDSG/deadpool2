@@ -93,3 +93,6 @@ a{
 }
 /*Estilize todos os nomes de Artistas, Personagens que aparecem nas legendas.
 | Deixe o texto com a espessura 600.*/
+.nomes{
+  font-weight: 600;
+}
